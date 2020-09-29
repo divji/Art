@@ -1,0 +1,23 @@
+{
+  "name": "art",
+  "version": "1.0.0",
+  "description": "Artist presentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divji/Art.git"
+  },
+  "keywords": [
+    "Artist",
+    "Gallery"
+  ],
+  "author": "Divji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/divji/Art/issues"
+  },
+  "homepage": "https://github.com/divji/Art#readme"
+}
