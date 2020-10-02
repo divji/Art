@@ -344,6 +344,14 @@ section {
     height: 130%;
     background-color: transparent;
     margin: auto;
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 84.3%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4C5351;
 }
 
 .contact-join-us button {
@@ -359,6 +367,7 @@ section {
     font-weight: normal;
     font-size: 15px;
     line-height: 84.3%;
+    cursor: pointer;
 }
 
 form {
