@@ -24,6 +24,46 @@
     .about-images {
         display: none;
     }
+
+    /* Expansion */
+    .expansion-about img {
+        display: none;
+    }
+
+    .expansion-about--gray-box {
+        display: none;
+    }
+
+    .expansion_reason--graybox {
+        display: none;
+    }
+
+    .expansion-about-textcontent {
+        display: none;
+    }
+
+    .expansion-content--heading-wrapper {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .expansion-reasons {
+        width: 100%;
+        margin: auto;
+    }
+
+    .expansion-reasons__main-content {
+        width: 80%;
+        text-align: left;
+        margin: auto;
+        margin-top: 6vh;
+    }
+
+    .expansion-target-audience {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 /* Smartphones (portrait) ----------- */
@@ -73,10 +113,50 @@
         left: 60vw;
         height: 30vh;
     }
+
+    /* Expansion */
+    .expansion-about img {
+        display: none;
+    }
+
+    .expansion-about--gray-box {
+        display: none;
+    }
+
+    .expansion_reason--graybox {
+        display: none;
+    }
+
+    .expansion-about-textcontent {
+        display: none;
+    }
+
+    .expansion-content--heading-wrapper {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .expansion-reasons {
+        width: 100%;
+        margin: auto;
+    }
+
+    .expansion-reasons__main-content {
+        width: 80%;
+        text-align: left;
+        margin: auto;
+        margin-top: 6vh;
+    }
+
+    .expansion-target-audience {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1025px) and (max-width: 1366px) {
+@media only screen and (min-width : 1025px) and (max-width: 1366px) {
     /* About */
     .about-images img:first-child {
         top: 40px;
@@ -89,10 +169,16 @@
         left: 60vw;
         height: 50vh;
     }
+
+    /* Expansion */
+    .expansion-about img {
+        height: 50vh;
+        left: 4vw;
+    }
 }
 
 /* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
+@media only screen and (min-width : 1824px) {
       /* About */
       .about-artists p  {
         font-size: 5vh;
@@ -100,40 +186,77 @@
     }
 }
 
-/* iPhone 4 ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-/* Styles */
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-/* Styles */
-}
-
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
+    /* Expansion */
+    .expansion-about img {
+        display: none;
+    }
+
+    .expansion-about--gray-box {
+        display: none;
+    }
+
+    .expansion_reason--graybox {
+        display: none;
+    }
+
+    .expansion-about-textcontent {
+        display: none;
+    }
+
+    .expansion-content--heading-wrapper {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .expansion-reasons {
+        width: 100%;
+        margin: auto;
+    }
+
+    .expansion-reasons__main-content {
+        width: 80%;
+        text-align: left;
+        margin: auto;
+        margin-top: 6vh;
+        font-size: 4vh;
+        line-height: 6vh;
+    }
+
+    .expansion-target-audience__heading {
+       font-size: 3vh;
+       line-height: 3vh;
+    }
+    .expansion-target-audience__content {
+        font-size: 3vh;
+    }
+
+    .expansion-target-audience {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
+    .expansion-reasons {
+        width: 100%;
+        margin: auto;
+    }
 
-/* iPhone 6, 7, 8 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
+    .expansion-reasons__main-content {
+        font-size: 2vh;
+    }
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
+    .expansion-target-audience__heading {
+        font-size: 2vh;
+        line-height: 3vh;
+     }
 
-/* iPhone 6+, 7+, 8+ ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
-
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
+    .expansion-target-audience__content {
+        font-size: 2vh;
+     }
 }
 
 /* iPhone X ----------- */
@@ -178,6 +301,46 @@
         left: 60vw;
         height: 30vh;
     }
+
+    /* Expansion */
+    .expansion-about img {
+        display: none;
+    }
+
+    .expansion-about--gray-box {
+        display: none;
+    }
+
+    .expansion_reason--graybox {
+        display: none;
+    }
+
+    .expansion-about-textcontent {
+        display: none;
+    }
+
+    .expansion-content--heading-wrapper {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .expansion-reasons {
+        width: 100%;
+        margin: auto;
+    }
+
+    .expansion-reasons__main-content {
+        width: 80%;
+        text-align: left;
+        margin: auto;
+        margin-top: 6vh;
+    }
+
+    .expansion-target-audience {
+        width: 80%;
+        margin: auto;
+    }
 }
     
 @media only screen and (min-device-width: 600px) and (max-device-height: 960px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
@@ -204,6 +367,46 @@
         left: 60vw;
         height: 30vh;
     }
+
+      /* Expansion */
+      .expansion-about img {
+        display: none;
+    }
+
+    .expansion-about--gray-box {
+        display: none;
+    }
+
+    .expansion_reason--graybox {
+        display: none;
+    }
+
+    .expansion-about-textcontent {
+        display: none;
+    }
+
+    .expansion-content--heading-wrapper {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .expansion-reasons {
+        width: 100%;
+        margin: auto;
+    }
+
+    .expansion-reasons__main-content {
+        width: 80%;
+        text-align: left;
+        margin: auto;
+        margin-top: 6vh;
+    }
+
+    .expansion-target-audience {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 /* iPhone XS Max, XR ----------- */
@@ -222,32 +425,3 @@
         width: 60%;
     }
 }
-
-/* Samsung Galaxy S3 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
-
-/* Samsung Galaxy S4 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
-}
-
-/* Samsung Galaxy S5 ----------- */
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
-}
-
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
-}
-
-    

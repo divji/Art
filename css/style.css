@@ -121,7 +121,7 @@ section {
 .expansion-content {
     text-align: center;
     display: block;
-    padding-top: 20px;
+    padding-top: 2vh;
 }
 
 .expansion-content--heading-wrapper {
@@ -129,35 +129,37 @@ section {
     width: 30%;
     margin: auto;
 }
+
 .expansion-content h2 {
     display: inline;
     font-family: Cinzel;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
-    line-height: 74px;
+    font-size: 5vh;
+    line-height: 7vh;
     color: #CEFEF3;
 }
 
 .expansion-about {
     position: absolute;
-    top: 100px;
+    top: 12vh;
 }
 
 .expansion-about img {
     position: absolute;
     z-index: 1;
-    left: 95px;
+    left: 5.8vw;
+    height: 63vh;
 }
 
 .expansion-about--gray-box {
     position: absolute;
-    width: 543px;
-    height: 442px;
+    width: 32vw;
+    height: 40vh;
     background: #66676B;
     z-index: 0;
-    top: 340px;
-    left: 48px;
+    top: 32vh;
+    left: 2.3vw;
 }
 
 .expansion-about-textcontent {
@@ -169,7 +171,7 @@ section {
     line-height: 100px;
     color: #CEFEF3;
     z-index: 2;
-    top: 480px;
+    top: 40vh;
     left: 70px;
 }
 
@@ -182,41 +184,42 @@ section {
 
 .expansion-reasons {
     width: 30%;
-    margin-top: 120px;
-    margin-right: 350px;    
+    margin-top: 8vh;
+    margin-right: 40vh;    
 }
 
 .expansion-reasons__main-content {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.5vh;
+    line-height: 3vh;
     letter-spacing: 0.1em;
     text-align: left;
     color: #F7F2E7;
     width: 100%;
     border-bottom: 1px solid #CEFEF2;
-    padding-bottom: 50px;
+    padding-bottom: 3vh;
 }
 
 .expansion-target-audience {
     width: 100%;
     border-bottom: 1px solid #CEFEF2;
     text-align: left;
-    padding: 20px 0 20px 0;
+    padding: 2vh 0 2vh 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .expansion-target-audience__heading {
     text-align: left;
     text-transform: uppercase;
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 1.8vh;
+    line-height: 2vh;
     letter-spacing: 0.1em;
     color: #F7F2E7;
 }
@@ -225,8 +228,8 @@ section {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 1.8vh;
+    line-height: 2vh;
     text-align: center;
     letter-spacing: 0.1em;
     color: #F7F2E7;
@@ -234,23 +237,23 @@ section {
 
 .expansion_reason--graybox {
     position: absolute;
-    width: 180px;
-    height: 180px;
+    width: 20vh;
+    height: 20vh;
     background: #66676B;
-    right: 0px;
-    top: 240px;
+    right: 0vh;
+    top: 30vh;
 }
 
 .expansion_reason--graybox p {
     font-family: Tajawal;
     font-style: normal;
     font-weight: bold;
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 2.4vh;
+    line-height: 2vh;
     text-align: center;
     letter-spacing: 0.1em;
     color: #F7F2E7;
-    padding-top: 60px;
+    padding-top: 7vh;
 }
 
 /* Gallery */
@@ -504,4 +507,3 @@ a:hover {
     text-align: right;
     letter-spacing: 0.1em;
 }
-
