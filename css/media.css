@@ -1,555 +1,128 @@
-@media screen and (max-width: 1420px), screen and (max-height: 800px) {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Header */
     .main-content {
-        margin-left: 115px;
-        font-size: 60px;
-        width: 70%;
-        color: rgba(255, 255, 255, 0.8);
-    }
-
-    /* About */
-    .about-images img:last-child {
-        left: 920px;
-    }
-
-    /* Expansion */
-    .expansion-about img {
-        height: 400px;
-        top: 50px;
-    }
-
-    .expansion-about--gray-box {
-        width: 350px;
-        height: 200px;
-        top: 340px;
-        left: 69px;
-    }
-
-    .expansion-content--heading-wrapper {
-        width: 50%;
-    }
-
-    .expansion-reasons {
-        width: 30%;
-        margin-top: 20px;
-        margin-right: 240px;    
-    }
-
-    .expansion-about-textcontent {
-        top: 350px;
-        left: 70px;
-    }
-}
-
-@media(max-width: 1320px) {
-    /* About */
-    .about-images img:last-child {
-        left: 720px;
-    }
-}
-
-@media(max-width: 1140px) {
-    /* About */
-    .about-images img:last-child {
-        left: 520px;
-    }
-
-    /* Expansion */
-    .expansion-about img {
-        height: 300px;
-        top: 150px;
-        left: 44px;
-    }
-
-    .expansion-about--gray-box {
-        width: 250px;
-        height: 150px;
-        left: 30px;
-    }
-
-    .expansion-content--heading-wrapper {
-        width: 50%;
-    }
-
-    .expansion-reasons {
-        width: 30%;
-        margin-top: 20px;
-        margin-right: 140px;    
-    }
-
-    .expansion-about-textcontent {
-        top: 350px;
-        left: 70px;
-    }
-
-    .expansion_reason--graybox {
-        width: 90px;
-        height: 90px;
-        top: 400px;
-    }
-
-    .expansion_reason--graybox p {
-        padding-top: 20px;
-    }
-}
-
-@media(max-width: 979px) {
-    .main-content {
-        display: block;
-        font-size: 60px;
-        width: 40%;
-        margin-left: 215px;
-    }
-
-     /* About */
-     .about-images img:first-child {
-        height: 200px;
-    }
-     .about-images img:last-child {
-        top: 300px;
-        left: 420px;
-        height: 300px;
-    }
-
-    .contact {
-        width: 100%;
-        height: 60vh;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact-join-us {
-        height: 20vh;
-        width: 100%;
-    }
-
-    .contact-join-us {
-        width: 100%;
-        background-color: #252525;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .contact-join-us h4 {
-        font-size: 20px;
-        line-height: 20px;
-        width: 40%;
-        padding-left: 10px;
-    }
-
-    .contact-join-us h3 {
-        display: none;
-    }
-    
-    .contact-join-us input {
-        width: 80%;
-        height: 40px;
-    }
-    
-    .contact-join-us button {
-        width: 80%;
-        height: 40px;   
-    }
-    
-    form {
-        margin-top: 20px;
-        height: 100%;
-        width: 80%;
-        text-align: center;
-    }
-
-    .join-us-wrapper {
-        flex-direction: row;
-        width: 100%;
-    }
-
-    .contact-share-us {
-        height: 40vh;
-        width: 100%;
-    }
-
-    footer {
-        width: 100%;
-        background-color: #F7F2E7;
-        height: 40vh;
-    }
-}
-
-@media screen and (max-width: 768px), screen and (max-height: 768px) {
-
-    header {
-        background-position: 90%;
-    }
-
-    .main-content {
-        margin-left: 115px;
-        font-size: 60px;
         width: 60%;
-        color: rgba(255, 255, 255, 0.8)
+        font-size: 7vh;
     }
 
     /* About */
-    .about-artists p {
-        font-size: 45px;
-        margin-top: 40px;
+    .about-artists p  {
+        font-size: 5vh;
+        line-height: 4vh;
     }
-
-    /* Expansion */
-    .expansion-content h2 {
-        font-size: 40px;
-        line-height: 60px;
-    }
-
-    .expansion-about img {
-        height: 200px;
-        top: 250px;
-    }
-
-    .expansion-about--gray-box {
-        display: none;
-    }
-
-    .expansion-reasons {
-        width: 40%;
-        margin-right: 130px;    
-    }
-
-    .expansion-reasons__main-content {
-        padding-bottom: 20px;
-        font-size: 14px;
-    }
-
-    .expansion-about-textcontent {
-        top: 280px;
-    }
-
-    .gallery-content-image {
-        right: 40px;
-    }
-
-    .gallery-content-image img {
-        height: 300px;
-    }
-  
 }
 
-@media screen and (max-width: 660px) {
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Header */
     .main-content {
-        margin-left: 115px;
-        font-size: 40px;
         width: 80%;
-        color: rgba(255, 255, 255, 0.8)
-    }
-
-    /* About */
-     .about-images img:last-child {
-        top: 300px;
-        left: 220px;
-        height: 300px;
-    }
-
-    /* Expansion */
-    .expansion-content h2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .expansion-about img {
-        height: 300px;
-        top: 420px;
-        left: 100px;
-    }
-
-    .expansion-about--gray-box {
-        display: none;
-    }
-
-    .expansion-reasons {
-        width: 80%;
-        margin-right: 70px;    
-    }
-
-    .expansion-reasons__main-content {
-        padding-bottom: 20px;
-        font-size: 14px;
-    }
-
-    .expansion-about-textcontent {
-        top: 480px;
-    }
-
-    .expansion_reason--graybox {
-        display: none;
     }
 }
 
-@media screen and (max-width: 480px), screen and (max-height: 568px) {
-    header {
-        background-position: 80%;
-    }
-
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Header */
     .main-content {
-        margin-left: 30px;
-        margin-top: 100px;
-        font-size: 35px;
-        width: 90%;
-        color: rgba(255, 255, 255, 0.8)
-    }
-    
-    /*About*/
-    .about h2 {
-        font-size: 18px;
-    }
-
-    .about-artists p {
-        font-size: 30px;
-    }
-
-    .about-images img:last-child {
-        top: 300px;
-        left: 50px;
-        height: 250px;
-    }
-
-    /* Expansion */
-    .expansion-content h2 {
-        font-size: 25px;
-        line-height: 30px;
-        width: 100%;
-    }
-
-    .expansion-about img {
-        height: 150px;
-        top: 380px;
-        left: 100px;
-    }
-
-    .expansion-about--gray-box {
-        display: none;
-    }
-
-    .expansion-reasons {
-        width: 80%;
-        margin: auto;
-        margin-top: 30px;   
-    }
-
-    .expansion-reasons__main-content {
-        padding-bottom: 20px;
-        font-size: 12px;
-        width: 105%;
-    }
-
-    .expansion-about-textcontent {
-        top: 380px;
-        font-size: 40px;
-    }
-
-    .expansion_reason--graybox {
-        display: none;
-    }
-
-     .expansion-target-audience {
-        padding: 10px 0 10px 0;
-    }
-
-    .expansion-target-audience__heading {
-        font-size: 13px;
-        padding-right: 5px;
-        
-    }
-    
-    .expansion-target-audience__content {
-        font-size: 13px;
+        font-size: 5vh;
+        width: 60%;
     }
 }
 
-@media(max-height: 1024px) {
-    .contact {
-        width: 100%;
-        height: 30vh;
-        display: flex;
-        flex-direction: column;
-    }
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
 
-    .contact-join-us {
-        height: 30vh;
-        width: 100%;
-    }
-
-    .contact-join-us {
-        width: 100%;
-        background-color: #252525;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .contact-join-us h4 {
-        font-size: 20px;
-        line-height: 20px;
-        width: 40%;
-        padding-left: 10px;
-    }
-
-    .contact-join-us h3 {
-        display: none;
-    }
-    
-    .contact-join-us input {
-        width: 40%;
-        height: 40px;
-        width: 100%;
-    }
-    
-    .contact-join-us button {
-        width: 100%;
-        height: 40px;   
-    }
-    
-    form {
-        margin-top: 20px;
-        height: 100%;
-        width: 50%;
-        text-align: center;
-    }
-
-    .join-us-wrapper {
-        flex-direction: row;
-    }
-
-    .contact-share-us {
-        display: none;
-    }
-
-    .footer-wrapper {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 0;
-    }
-
-    .footer-navbar {
-        margin-bottom: 0;
-    }
-
-    .footer-navbar h4 {
-        padding: 0;
-    }
-
-    ul li {
-        display: inline-block;
-        padding-right: 70px;
-    }
-
-    ul li:last-child {
-        padding-right: 0;
-    }
-
-    ul li a {
-        font-size: 14px;
-    }
-
-    footer {
-        width: 100%;
-        background-color: #F7F2E7;
-        height: 70vh;
-    }
-
-    .footer-description p {
-        width: 100%;
-        font-size: 14px;
-        margin-bottom: 0;
-    }
-
-    .footer-description span:last-child {
-        display: block;
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .footer-logo {
-        display: none;
-    }
-
-    .footer-about {
-        width: 70%;
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+      /* About */
+      .about-artists p  {
+        font-size: 5vh;
+        line-height: 4vh;
     }
 }
 
-
-@media(min-height: 850px) {
-    /* Expansion */
-    .expansion-about img {
-        height: 400px;
-        top: 50px;
-    }
-
-    .expansion-about--gray-box {
-        width: 350px;
-        height: 200px;
-        top: 340px;
-        left: 69px;
-    }
-
-    .expansion-content--heading-wrapper {
-        width: 50%;
-    }
-
-    .expansion-reasons {
-        width: 30%;
-        margin-top: 20px;
-        margin-right: 350px;    
-    }
-
-    .expansion-about-textcontent {
-        top: 250px;
-        left: 70px;
-    }
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
 }
 
-@media only screen 
-  and (max-device-width: 1280px) 
-  and (device-height: 720px)
-{
-    /* Expansion */
-    .expansion-about img {
-        height: 400px;
-        top: 50px;
-    }
-
-    .expansion-about--gray-box {
-        width: 350px;
-        height: 200px;
-        top: 340px;
-        left: 69px;
-    }
-
-    .expansion-content--heading-wrapper {
-        width: 50%;
-    }
-
-    .expansion-reasons {
-        width: 30%;
-        margin-top: 20px;
-        margin-right: 240px;    
-    }
-
-    .expansion-about-textcontent {
-        top: 350px;
-        left: 70px;
-    }
-}  
-
-@media(max-height: 568px) {
-    .expansion-about img {
-        display: none;
-    }
-    .expansion-about-textcontent {
-        display: none;
-    }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
 }
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+    
