@@ -1,15 +1,28 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Header */
+    header {
+        background-position: 20%;
+    }
+
     .main-content {
         width: 60%;
         font-size: 7vh;
     }
 
     /* About */
+    .about h2 {
+        font-size: 3vh;
+        padding: 1vh;
+    }
+
     .about-artists p  {
         font-size: 5vh;
         line-height: 4vh;
+    }
+
+    .about-images {
+        display: none;
     }
 }
 
@@ -24,15 +37,58 @@
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     /* Header */
+    header {
+        background-position: 90%;
+    }
+    
     .main-content {
         font-size: 5vh;
         width: 60%;
     }
+
+    /* About */
+    .about-content {
+        padding: 7vh 0 0 0;
+    }
+
+    .about h2 {
+        font-size: 3vh;
+        padding: 1vh;
+    }
+
+    .about-artists p  {
+        font-size: 4vh;
+        line-height: 4vh;
+        margin-top: 6vh;
+    }
+
+    .about-images img:first-child {
+        top: 40px;
+        left: 5vw;
+        height: 30vh;
+    }
+    
+    .about-images img:last-child {
+        top: 10vh;
+        left: 60vw;
+        height: 30vh;
+    }
 }
 
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-/* Styles */
+@media only screen  and (min-width : 1025px) and (max-width: 1366px) {
+    /* About */
+    .about-images img:first-child {
+        top: 40px;
+        left: 5vw;
+        height: 50vh;
+    }
+    
+    .about-images img:last-child {
+        top: 10vh;
+        left: 60vw;
+        height: 50vh;
+    }
 }
 
 /* Large screens ----------- */
@@ -82,20 +138,89 @@
 
 /* iPhone X ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
+    /* Header */
+    .main-content {
+        font-size: 2vh;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
+     /* Header */
+     .main-content {
+        font-size: 5vh;
+        width: 60%;
+    }
+}
+
+/* Nexus 7 ----------- */
+@media only screen and (min-device-width: 600px) and (max-device-height: 960px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+     /* Header */
+     .main-content {
+        font-size: 5vh;
+        width: 60%;
+    }
+
+    .about-artists p  {
+        font-size: 4vh;
+        line-height: 4vh;
+        margin-top: 6vh;
+    }
+
+    .about-images img:first-child {
+        top: 40px;
+        left: 5vw;
+        height: 30vh;
+    }
+    
+    .about-images img:last-child {
+        top: 10vh;
+        left: 60vw;
+        height: 30vh;
+    }
+}
+    
+@media only screen and (min-device-width: 600px) and (max-device-height: 960px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+     /* Header */
+     .main-content {
+        font-size: 5vh;
+        width: 60%;
+    }
+
+    .about-artists p  {
+        font-size: 4vh;
+        line-height: 4vh;
+        margin-top: 6vh;
+    }
+
+    .about-images img:first-child {
+        top: 40px;
+        left: 5vw;
+        height: 30vh;
+    }
+    
+    .about-images img:last-child {
+        top: 10vh;
+        left: 60vw;
+        height: 30vh;
+    }
 }
 
 /* iPhone XS Max, XR ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
+     /* Header */
+     .main-content {
+        font-size: 5vh;
+        width: 60%;
+    }
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
+     /* Header */
+     .main-content {
+        font-size: 5vh;
+        width: 60%;
+    }
 }
 
 /* Samsung Galaxy S3 ----------- */
