@@ -80,6 +80,104 @@
      .gallery-content-image img {
         height: 40vh;
     }
+
+        /* Footer */
+        .contact {
+            height: 60vh;
+        }
+        
+        .contact-join-us {
+            height: 60vh;
+        }
+    
+        footer {
+            height: 40vh;
+        }
+    
+        .contact-share-us {
+            height: 60vh;
+        }
+        
+        .contact-share-us h4 {
+            font-size: 3.5vh;
+            line-height: 5vh;
+            top: 5vh;
+        }
+    
+        .contact-share-us img {
+            top: 15vh;
+            height: 25vh;
+        }
+    
+        .contact-join-us h4 {
+            margin: 1vh;
+            font-size: 1.4vh;
+        }
+    
+        .contact-join-us h3 {
+            margin: 2vh;
+            font-size: 2vh;
+            width: 60%;
+        }
+    
+        .contact-join-us input {
+            width: 80%;
+        }
+    
+        .contact-join-us button {
+            width: 80%;
+        }
+    
+        .footer-logo {
+            display: none;
+        }
+    
+        .footer-about {
+            width: 80%;
+            margin: auto;
+        }
+    
+        .footer-description p {
+            width: 80%;
+            margin: auto;
+            font-size: 1.7vh;
+            margin-top: 1vh;
+        }
+    
+        .footer-social {
+            display: flex;
+            width: 40%;
+            justify-content: center;
+            margin: auto;
+        }
+    
+        .footer-social img {
+            padding-left: 5vh;
+        }
+    
+        .footer-wrapper {
+            padding-top: 5vh;
+        }
+    
+        .footer-navbar {
+            padding-left: 2vh;
+            margin: auto;
+        }
+    
+        .footer-navbar h4 {
+            margin: 0;
+            font-size: 1.3vh;
+        }
+
+        .footer-description span {
+            display: block;
+            text-align: right;
+            padding-right: 2vh;
+        }
+    
+        ul li a {
+            font-size: 1.3vh;
+        }
 }
 
 /* Smartphones (portrait) ----------- */
