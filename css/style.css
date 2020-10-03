@@ -309,7 +309,7 @@ section {
 
 .contact-join-us {
     width: 50%;
-    height: 100%;
+    height: 68vh;
     background-color: #252525;
     display: flex;
     flex-direction: column;
@@ -327,8 +327,8 @@ section {
     font-family: Tajawal;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 140px;
+    font-size: 3vh;
+    line-height: 7vh;
     color: #FFFFFF;
     text-transform: uppercase;
 }
@@ -338,7 +338,7 @@ section {
     font-family: Cinzel;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 3vh;
     line-height: 147.3%;
     text-align: center;
     color: #CEFEF3;
@@ -349,13 +349,13 @@ section {
     box-sizing: border-box;
     border: 1px solid #CEFEF3;
     width: 40%;
-    height: 130%;
+    height: 7vh;
     background-color: transparent;
     margin: auto;
     font-family: Tajawal;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 2vh;
     line-height: 84.3%;
     text-align: center;
     letter-spacing: 0.04em;
@@ -366,20 +366,20 @@ section {
     box-sizing: border-box;
     border: 1px solid #CEFEF3;
     width: 40%;
-    height: 130%;
+    height: 7vh;
     background-color: transparent;
     text-transform: uppercase;
     color: #CEFEF2;
     font-family: Tajawal;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 2vh;
     line-height: 84.3%;
     cursor: pointer;
 }
 
 form {
-    margin-top: 20px;
+    margin-top: 2vh;
     height: 100%;
     width: 100%;
     text-align: center;
@@ -388,7 +388,7 @@ form {
 
 .contact-share-us {
     width: 50%;
-    height: 100%;
+    height: 68vh;
     background-color: #DDD5D2;
     position: relative;
 }
@@ -400,8 +400,8 @@ form {
     font-family: Cinzel;
     font-style: normal;
     font-weight: normal;
-    font-size: 70px;
-    line-height: 140px;
+    font-size: 8vh;
+    line-height: 15vh;
     color: #252525;
     text-shadow: 10px 20px 20px rgba(0, 255, 255, 1);
     left: 50%;
@@ -416,7 +416,7 @@ form {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    top: 120px;
+    top: 14vh;
 }
 
 footer {
@@ -437,8 +437,8 @@ footer {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 2vh;
+    line-height: 2.3vh;
     text-align: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -446,7 +446,7 @@ footer {
 
 ul li {
     list-style-type: none;
-    padding-bottom: 10px;
+    padding-bottom: 1vh;
 }
 
 ul li a {
@@ -454,8 +454,8 @@ ul li a {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 2vh;
+    line-height: 2.3vh;
     text-align: center;
     letter-spacing: 0.1em;
     color: #000000;
@@ -474,7 +474,7 @@ ul li a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 10px;
+    padding-bottom: 1vh;
 }
 
 a:hover {
@@ -494,7 +494,7 @@ a:hover {
     font-family: Italianno;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 3vh;
     color: #78BFAE;
 }
 
@@ -502,8 +502,8 @@ a:hover {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 21px;
+    font-size: 1.5vh;
+    line-height: 2vh;
     text-align: right;
     letter-spacing: 0.1em;
 }

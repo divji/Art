@@ -64,6 +64,22 @@
         width: 80%;
         margin: auto;
     }
+
+     /* Gallery */
+     .gallery-content--heading-wrapper h2 {
+        top: 10vh;
+        font-size: 8vh;
+        left: 1vh;
+    }
+
+     .gallery-content-image {
+        top: 10vh;
+        right: 10vh;
+     }
+
+     .gallery-content-image img {
+        height: 40vh;
+    }
 }
 
 /* Smartphones (portrait) ----------- */
@@ -153,9 +169,25 @@
         width: 80%;
         margin: auto;
     }
+
+    /* Gallery */
+    .gallery-content--heading-wrapper h2 {
+        top: 10vh;
+        font-size: 8vh;
+        left: 1vh;
+    }
+
+     .gallery-content-image {
+        top: 10vh;
+        right: 10vh;
+     }
+
+     .gallery-content-image img {
+        height: 40vh;
+    }
 }
 
-/* Desktops and laptops ----------- */
+/* Old Desktops and laptops ----------- */
 @media only screen and (min-width : 1025px) and (max-width: 1366px) {
     /* About */
     .about-images img:first-child {
@@ -175,8 +207,16 @@
         height: 50vh;
         left: 4vw;
     }
-}
 
+    .expansion-content--heading-wrapper {
+        width: 90%;
+    }
+
+    /* Gallery */
+    .gallery-content-image img {
+       height: 50vh;
+    }
+}
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
       /* About */
@@ -341,6 +381,22 @@
         width: 80%;
         margin: auto;
     }
+
+    /* Gallery */
+    .gallery-content--heading-wrapper h2 {
+        top: 10vh;
+        font-size: 8vh;
+        left: 1vh;
+    }
+
+     .gallery-content-image {
+        top: 10vh;
+        right: 10vh;
+     }
+
+     .gallery-content-image img {
+        height: 40vh;
+    }
 }
     
 @media only screen and (min-device-width: 600px) and (max-device-height: 960px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
@@ -406,6 +462,22 @@
     .expansion-target-audience {
         width: 80%;
         margin: auto;
+    }
+
+    /* Gallery */
+    .gallery-content--heading-wrapper h2 {
+        top: 10vh;
+        font-size: 8vh;
+        left: 1vh;
+    }
+
+     .gallery-content-image {
+        top: 10vh;
+        right: 10vh;
+     }
+
+     .gallery-content-image img {
+        height: 40vh;
     }
 }
 
