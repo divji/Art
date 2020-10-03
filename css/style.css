@@ -5,6 +5,7 @@ body {
     padding: 0;
     color: #252525;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .scroller {
@@ -289,7 +290,7 @@ section {
     color: #F7F2E7;
     z-index: 0;
     left: -57px;
-    width: 140%;
+    display: inline;
 }
 
 .gallery-content-image {
@@ -395,12 +396,12 @@ form {
 
 .contact-share-us h4 {
     position: absolute;
-    top: -50px;
+    top: -3vh;
     width: 60%;
     font-family: Cinzel;
     font-style: normal;
     font-weight: normal;
-    font-size: 8vh;
+    font-size: 7vh;
     line-height: 15vh;
     color: #252525;
     text-shadow: 10px 20px 20px rgba(0, 255, 255, 1);
@@ -430,7 +431,7 @@ footer {
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    padding-top: 50px;
+    padding-top: 5vh;
 }
 
 .footer-navbar h4 {
