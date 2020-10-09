@@ -1,7 +1,8 @@
 let headerNav = document.querySelector('.navbar');
 let hiddenNav = document.querySelector('.header-nav');
 let closeBtn  = document.querySelector('.close-btn');
-let body      = document.querySelector('.header-main-content');  
+let listMenu     = document.querySelector('.header-list-menu');
+
 
 headerNav.addEventListener('click', (e) => {
     hiddenNav.style.display = 'flex';
@@ -10,6 +11,11 @@ headerNav.addEventListener('click', (e) => {
 })
 
 closeBtn.addEventListener('click', (e) => {
+    hiddenNav.style.width = '0%';
+    hiddenNav.style.height = '0vh';
+});
+
+listMenu.addEventListener('click', (e) => {
     hiddenNav.style.width = '0%';
     hiddenNav.style.height = '0vh';
 });

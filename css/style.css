@@ -60,7 +60,7 @@ section {
 }
 
 .header-nav {
-    z-index: 1;
+    z-index: 20;
     position: absolute;
     height: 0vh;
     width: 0%;
