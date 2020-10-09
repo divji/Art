@@ -88,6 +88,7 @@ section {
     text-align: center;
     color: #252525;
     text-shadow: 10px 20px 20px rgba(0, 0, 0, 0.28);
+    cursor: pointer;
 }
 
 .header-nav nav a:hover {
