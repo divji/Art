@@ -50,6 +50,7 @@ section {
     font-family: Tajawal, sans-serif;
     font-size: 20px;
     margin-right: 35px;
+    cursor: pointer;
 }
 
 .main-content {
