@@ -1,11 +1,13 @@
+/* Utils */
 body {
     font-family: Cinzel, sans-serif;
     margin: 0;
     padding: 0;
     color: #252525;
     height: 100vh;
+    overflow-x: hidden;
+    position: relative;
 }
-
 
 .scroller {
     height: 100vh;
@@ -21,11 +23,12 @@ body {
     justify-content: space-between;
 }
 
+/* Header */
 header {
     height: 100vh;
     width: 100%;
     background: url('../img/main-bg.png') no-repeat center center /cover;
-    padding: 35px 0 37px 0;
+    padding: 4vh 0 4vh 0;
     box-sizing: border-box;
     scroll-snap-align: start;
 }
@@ -38,6 +41,7 @@ section {
 
 .navbar {
     justify-content: end;
+    transition: all 2s ease;
 }
 
 .navbar p {
@@ -50,14 +54,60 @@ section {
 
 .main-content {
     display: block;
-    font-size: 65px;
-    width: 27%;
-    margin-left: 215px;
+    font-size: 7vh;
+    width: 40%;
+    margin-left: 15vw;
 }
 
+.header-nav {
+    z-index: 1;
+    position: absolute;
+    height: 0vh;
+    width: 0%;
+    background-color: snow;
+    bottom: 0;
+    transition: all 0.5s ease;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.header-nav nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-nav nav a {
+    font-size: 6vh;
+    line-height: 10vh;
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #252525;
+    text-shadow: 10px 20px 20px rgba(0, 0, 0, 0.28);
+}
+
+.header-nav nav a:hover {
+    color: tomato;
+}
+
+.header-nav .close-btn {
+    padding: 5vh;
+    font-family: Tajawal, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #252525;
+    font-size: 20px;
+}
+
+/* About */
 .about-content {
     text-align: center;
-    padding: 90px 0 0 0 ;
+    padding: 8vh 0 0 0 ;
     box-sizing: border-box;
     position: relative;
 }
@@ -83,7 +133,7 @@ section {
 
 .about h2 {
     color: #F7F2E7;
-    font-size: 22px;
+    font-size: 3.5vh;
     display: inline;
     text-align: center;
     text-shadow: 10px 20px 20px rgba(0, 0, 0, 0.28);
@@ -104,13 +154,14 @@ section {
     font-family: Cinzel;
     font-style: normal;
     font-weight: normal;
-    font-size: 65px;
-    line-height: 40px;
+    font-size: 8vh;
+    line-height: 6vh;
     color: #F7F2E7;
     text-shadow: 10px 20px 20px rgba(0, 0, 0, 0.28);
-    margin-top: 80px;
+    margin-top: 8vh;
 }
 
+/* Expansion */
 .expansion {
     position: relative;
 }
@@ -118,7 +169,7 @@ section {
 .expansion-content {
     text-align: center;
     display: block;
-    padding-top: 20px;
+    padding-top: 2vh;
 }
 
 .expansion-content--heading-wrapper {
@@ -126,35 +177,37 @@ section {
     width: 30%;
     margin: auto;
 }
+
 .expansion-content h2 {
     display: inline;
     font-family: Cinzel;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
-    line-height: 74px;
+    font-size: 5vh;
+    line-height: 7vh;
     color: #CEFEF3;
 }
 
 .expansion-about {
     position: absolute;
-    top: 100px;
+    top: 12vh;
 }
 
 .expansion-about img {
     position: absolute;
     z-index: 1;
-    left: 95px;
+    left: 5.8vw;
+    height: 63vh;
 }
 
 .expansion-about--gray-box {
     position: absolute;
-    width: 543px;
-    height: 442px;
+    width: 32vw;
+    height: 40vh;
     background: #66676B;
     z-index: 0;
-    top: 340px;
-    left: 48px;
+    top: 32vh;
+    left: 2.3vw;
 }
 
 .expansion-about-textcontent {
@@ -166,7 +219,7 @@ section {
     line-height: 100px;
     color: #CEFEF3;
     z-index: 2;
-    top: 480px;
+    top: 40vh;
     left: 70px;
 }
 
@@ -179,41 +232,42 @@ section {
 
 .expansion-reasons {
     width: 30%;
-    margin-top: 120px;
-    margin-right: 350px;    
+    margin-top: 8vh;
+    margin-right: 40vh;    
 }
 
 .expansion-reasons__main-content {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.5vh;
+    line-height: 3vh;
     letter-spacing: 0.1em;
     text-align: left;
     color: #F7F2E7;
     width: 100%;
     border-bottom: 1px solid #CEFEF2;
-    padding-bottom: 50px;
+    padding-bottom: 3vh;
 }
 
 .expansion-target-audience {
     width: 100%;
     border-bottom: 1px solid #CEFEF2;
     text-align: left;
-    padding: 20px 0 20px 0;
+    padding: 2vh 0 2vh 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .expansion-target-audience__heading {
     text-align: left;
     text-transform: uppercase;
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 1.8vh;
+    line-height: 2vh;
     letter-spacing: 0.1em;
     color: #F7F2E7;
 }
@@ -222,8 +276,8 @@ section {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 1.8vh;
+    line-height: 2vh;
     text-align: center;
     letter-spacing: 0.1em;
     color: #F7F2E7;
@@ -231,25 +285,26 @@ section {
 
 .expansion_reason--graybox {
     position: absolute;
-    width: 180px;
-    height: 180px;
+    width: 20vh;
+    height: 20vh;
     background: #66676B;
-    right: 0px;
-    top: 240px;
+    right: 0vh;
+    top: 30vh;
 }
 
 .expansion_reason--graybox p {
     font-family: Tajawal;
     font-style: normal;
     font-weight: bold;
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 2.4vh;
+    line-height: 2vh;
     text-align: center;
     letter-spacing: 0.1em;
     color: #F7F2E7;
-    padding-top: 60px;
+    padding-top: 7vh;
 }
 
+/* Gallery */
 .gallery {
     padding-top: 50px;
     box-sizing: border-box;
@@ -282,7 +337,7 @@ section {
     color: #F7F2E7;
     z-index: 0;
     left: -57px;
-    width: 140%;
+    display: inline;
 }
 
 .gallery-content-image {
@@ -292,6 +347,7 @@ section {
     box-shadow: 40px 0px 50px 10px rgba(0, 0, 0, 0.25);
 }
 
+/* Footer */
 .contact {
     width: 100%;
     height: 68vh;
@@ -301,7 +357,7 @@ section {
 
 .contact-join-us {
     width: 50%;
-    height: 100%;
+    height: 68vh;
     background-color: #252525;
     display: flex;
     flex-direction: column;
@@ -319,8 +375,8 @@ section {
     font-family: Tajawal;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 140px;
+    font-size: 3vh;
+    line-height: 7vh;
     color: #FFFFFF;
     text-transform: uppercase;
 }
@@ -330,7 +386,7 @@ section {
     font-family: Cinzel;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 3vh;
     line-height: 147.3%;
     text-align: center;
     color: #CEFEF3;
@@ -341,13 +397,13 @@ section {
     box-sizing: border-box;
     border: 1px solid #CEFEF3;
     width: 40%;
-    height: 130%;
+    height: 7vh;
     background-color: transparent;
     margin: auto;
     font-family: Tajawal;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 2vh;
     line-height: 84.3%;
     text-align: center;
     letter-spacing: 0.04em;
@@ -358,20 +414,20 @@ section {
     box-sizing: border-box;
     border: 1px solid #CEFEF3;
     width: 40%;
-    height: 130%;
+    height: 7vh;
     background-color: transparent;
     text-transform: uppercase;
     color: #CEFEF2;
     font-family: Tajawal;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 2vh;
     line-height: 84.3%;
     cursor: pointer;
 }
 
 form {
-    margin-top: 20px;
+    margin-top: 2vh;
     height: 100%;
     width: 100%;
     text-align: center;
@@ -380,20 +436,20 @@ form {
 
 .contact-share-us {
     width: 50%;
-    height: 100%;
+    height: 68vh;
     background-color: #DDD5D2;
     position: relative;
 }
 
 .contact-share-us h4 {
     position: absolute;
-    top: -50px;
+    top: -3vh;
     width: 60%;
     font-family: Cinzel;
     font-style: normal;
     font-weight: normal;
-    font-size: 70px;
-    line-height: 140px;
+    font-size: 7vh;
+    line-height: 15vh;
     color: #252525;
     text-shadow: 10px 20px 20px rgba(0, 255, 255, 1);
     left: 50%;
@@ -408,7 +464,7 @@ form {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    top: 120px;
+    top: 14vh;
 }
 
 footer {
@@ -422,15 +478,15 @@ footer {
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    padding-top: 50px;
+    padding-top: 5vh;
 }
 
 .footer-navbar h4 {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 2vh;
+    line-height: 2.3vh;
     text-align: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -438,7 +494,7 @@ footer {
 
 ul li {
     list-style-type: none;
-    padding-bottom: 10px;
+    padding-bottom: 1vh;
 }
 
 ul li a {
@@ -446,8 +502,8 @@ ul li a {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 2vh;
+    line-height: 2.3vh;
     text-align: center;
     letter-spacing: 0.1em;
     color: #000000;
@@ -466,7 +522,7 @@ ul li a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 10px;
+    padding-bottom: 1vh;
 }
 
 a:hover {
@@ -486,7 +542,7 @@ a:hover {
     font-family: Italianno;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 3vh;
     color: #78BFAE;
 }
 
@@ -494,9 +550,8 @@ a:hover {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 21px;
+    font-size: 1.5vh;
+    line-height: 2vh;
     text-align: right;
     letter-spacing: 0.1em;
 }
-

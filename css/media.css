@@ -1,475 +1,929 @@
-@media screen and (max-width: 1420px), screen and (max-height: 800px) {
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Header */
     .main-content {
-        margin-left: 115px;
-        font-size: 60px;
-        width: 70%;
-        color: rgba(255, 255, 255, 0.8);
-    }
-
-    /* About */
-    .about-images img:last-child {
-        left: 920px;
-    }
-
-    /* Expansion */
-    .expansion-about img {
-        height: 400px;
-        top: 50px;
-    }
-
-    .expansion-about--gray-box {
-        width: 350px;
-        height: 200px;
-        top: 340px;
-        left: 69px;
-    }
-
-    .expansion-content--heading-wrapper {
-        width: 50%;
-    }
-
-    .expansion-reasons {
-        width: 30%;
-        margin-top: 20px;
-        margin-right: 240px;    
-    }
-
-    .expansion-about-textcontent {
-        top: 350px;
-        left: 70px;
+        width: 80%;
     }
 }
 
-@media(max-width: 1320px) {
-    /* About */
-    .about-images img:last-child {
-        left: 720px;
-    }
-}
-
-@media(max-width: 1140px) {
-    /* About */
-    .about-images img:last-child {
-        left: 520px;
-    }
-
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
     /* Expansion */
     .expansion-about img {
-        height: 300px;
-        top: 150px;
-        left: 44px;
+        display: none;
     }
 
     .expansion-about--gray-box {
-        width: 250px;
-        height: 150px;
-        left: 30px;
-    }
-
-    .expansion-content--heading-wrapper {
-        width: 50%;
-    }
-
-    .expansion-reasons {
-        width: 30%;
-        margin-top: 20px;
-        margin-right: 140px;    
-    }
-
-    .expansion-about-textcontent {
-        top: 350px;
-        left: 70px;
+        display: none;
     }
 
     .expansion_reason--graybox {
-        width: 90px;
-        height: 90px;
-        top: 400px;
+        display: none;
     }
 
-    .expansion_reason--graybox p {
-        padding-top: 20px;
+    .expansion-about-textcontent {
+        display: none;
     }
-}
 
-@media(max-width: 979px) {
-    .main-content {
+    .expansion-content--heading-wrapper {
         display: block;
-        font-size: 60px;
-        width: 40%;
-        margin-left: 215px;
-    }
-
-     /* About */
-     .about-images img:first-child {
-        height: 200px;
-    }
-     .about-images img:last-child {
-        top: 300px;
-        left: 420px;
-        height: 300px;
-    }
-
-    .contact {
-        width: 100%;
-        height: 60vh;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact-join-us {
-        height: 20vh;
-        width: 100%;
-    }
-
-    .contact-join-us {
-        width: 100%;
-        background-color: #252525;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .contact-join-us h4 {
-        font-size: 20px;
-        line-height: 20px;
-        width: 40%;
-        padding-left: 10px;
-    }
-
-    .contact-join-us h3 {
-        display: none;
-    }
-    
-    .contact-join-us input {
-        width: 80%;
-        height: 40px;
-    }
-    
-    .contact-join-us button {
-        width: 80%;
-        height: 40px;   
-    }
-    
-    form {
-        margin-top: 20px;
-        height: 100%;
-        width: 80%;
-        text-align: center;
-    }
-
-    .join-us-wrapper {
-        flex-direction: row;
-        width: 100%;
-    }
-
-    .contact-share-us {
-        height: 40vh;
-        width: 100%;
-    }
-
-    footer {
-        width: 100%;
-        background-color: #F7F2E7;
-        height: 40vh;
-    }
-}
-
-@media screen and (max-width: 768px), screen and (max-height: 768px) {
-
-    header {
-        background-position: 90%;
-    }
-
-    .main-content {
-        margin-left: 115px;
-        font-size: 60px;
-        width: 60%;
-        color: rgba(255, 255, 255, 0.8)
-    }
-
-    /* About */
-    .about-artists p {
-        font-size: 45px;
-        margin-top: 40px;
-    }
-
-    /* Expansion */
-    .expansion-content h2 {
-        font-size: 40px;
-        line-height: 60px;
-    }
-
-    .expansion-about img {
-        height: 200px;
-        top: 250px;
-    }
-
-    .expansion-about--gray-box {
-        display: none;
-    }
-
-    .expansion-reasons {
-        width: 40%;
-        margin-right: 130px;    
-    }
-
-    .expansion-reasons__main-content {
-        padding-bottom: 20px;
-        font-size: 14px;
-    }
-
-    .expansion-about-textcontent {
-        top: 280px;
-    }
-
-    .gallery-content-image {
-        right: 40px;
-    }
-
-    .gallery-content-image img {
-        height: 300px;
-    }
-  
-}
-
-@media screen and (max-width: 660px) {
-    .main-content {
-        margin-left: 115px;
-        font-size: 40px;
-        width: 80%;
-        color: rgba(255, 255, 255, 0.8)
-    }
-
-    /* About */
-     .about-images img:last-child {
-        top: 300px;
-        left: 220px;
-        height: 300px;
-    }
-
-    /* Expansion */
-    .expansion-content h2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .expansion-about img {
-        height: 300px;
-        top: 420px;
-        left: 100px;
-    }
-
-    .expansion-about--gray-box {
-        display: none;
-    }
-
-    .expansion-reasons {
-        width: 80%;
-        margin-right: 70px;    
-    }
-
-    .expansion-reasons__main-content {
-        padding-bottom: 20px;
-        font-size: 14px;
-    }
-
-    .expansion-about-textcontent {
-        top: 480px;
-    }
-
-    .expansion_reason--graybox {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 480px), screen and (max-height: 568px) {
-    header {
-        background-position: 80%;
-    }
-
-    .main-content {
-        margin-left: 30px;
-        margin-top: 100px;
-        font-size: 35px;
         width: 90%;
-        color: rgba(255, 255, 255, 0.8)
-    }
-    
-    /*About*/
-    .about h2 {
-        font-size: 18px;
-    }
-
-    .about-artists p {
-        font-size: 30px;
-    }
-
-    .about-images img:last-child {
-        top: 300px;
-        left: 50px;
-        height: 250px;
-    }
-
-    /* Expansion */
-    .expansion-content h2 {
-        font-size: 25px;
-        line-height: 30px;
-        width: 100%;
-    }
-
-    .expansion-about img {
-        height: 150px;
-        top: 380px;
-        left: 100px;
-    }
-
-    .expansion-about--gray-box {
-        display: none;
+        margin: auto;
     }
 
     .expansion-reasons {
-        width: 80%;
+        width: 100%;
         margin: auto;
-        margin-top: 30px;   
     }
 
     .expansion-reasons__main-content {
-        padding-bottom: 20px;
-        font-size: 12px;
-        width: 105%;
-    }
-
-    .expansion-about-textcontent {
-        top: 380px;
-        font-size: 40px;
-    }
-
-    .expansion_reason--graybox {
-        display: none;
-    }
-
-     .expansion-target-audience {
-        padding: 10px 0 10px 0;
+        width: 80%;
+        text-align: left;
+        margin: auto;
+        margin-top: 6vh;
+        font-size: 4vh;
+        line-height: 6vh;
     }
 
     .expansion-target-audience__heading {
-        font-size: 13px;
-        padding-right: 5px;
-        
+       font-size: 3vh;
+       line-height: 3vh;
     }
-    
     .expansion-target-audience__content {
-        font-size: 13px;
+        font-size: 3vh;
+    }
+
+    .expansion-target-audience {
+        width: 80%;
+        margin: auto;
     }
 }
 
-@media(max-height: 1024px) {
-    .contact {
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    .expansion-reasons {
         width: 100%;
+        margin: auto;
+    }
+
+    .expansion-reasons__main-content {
+        font-size: 2vh;
+    }
+
+    .expansion-target-audience__heading {
+        font-size: 2vh;
+        line-height: 3vh;
+     }
+
+    .expansion-target-audience__content {
+        font-size: 2vh;
+     }
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Header */
+    .main-content {
+        font-size: 2vh;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+     /* Header */
+     .main-content {
+        font-size: 5vh;
+        width: 60%;
+    }
+}
+
+/* Nexus 7 ----------- */
+@media only screen and (min-device-width: 600px) and (max-device-height: 960px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+     /* Header */
+     .main-content {
+        font-size: 5vh;
+        width: 60%;
+    }
+
+    .header-nav nav {
+        width: 50%;
+    }
+
+    .header-nav nav ul {
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .header-nav nav a {
+        font-size: 5vh;
+        line-height: 10vh;
+        text-align: center;
+    }
+    
+    .header-nav .close-btn {
+        padding: 6vh 0 0vh 4vh;
+        font-size: 4vh;
+    }
+
+    /* About */
+    .about-artists p  {
+        font-size: 4vh;
+        line-height: 4vh;
+        margin-top: 6vh;
+    }
+
+    .about-images img:first-child {
+        top: 40px;
+        left: 5vw;
         height: 30vh;
-        display: flex;
-        flex-direction: column;
     }
-
-    .contact-join-us {
+    
+    .about-images img:last-child {
+        top: 10vh;
+        left: 60vw;
         height: 30vh;
-        width: 100%;
     }
 
-    .contact-join-us {
-        width: 100%;
-        background-color: #252525;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .contact-join-us h4 {
-        font-size: 20px;
-        line-height: 20px;
-        width: 40%;
-        padding-left: 10px;
-    }
-
-    .contact-join-us h3 {
+    /* Expansion */
+    .expansion-about img {
         display: none;
     }
-    
-    .contact-join-us input {
-        width: 40%;
-        height: 40px;
-        width: 100%;
+
+    .expansion-about--gray-box {
+        display: none;
     }
-    
-    .contact-join-us button {
-        width: 100%;
-        height: 40px;   
+
+    .expansion_reason--graybox {
+        display: none;
     }
+
+    .expansion-about-textcontent {
+        display: none;
+    }
+
+    .expansion-content--heading-wrapper {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .expansion-reasons {
+        width: 100%;
+        margin: auto;
+    }
+
+    .expansion-reasons__main-content {
+        width: 80%;
+        text-align: left;
+        margin: auto;
+        margin-top: 6vh;
+    }
+
+    .expansion-target-audience {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* Gallery */
+    .gallery-content--heading-wrapper h2 {
+        top: 10vh;
+        font-size: 8vh;
+        left: 1vh;
+    }
+
+     .gallery-content-image {
+        top: 10vh;
+        right: 10vh;
+     }
+
+     .gallery-content-image img {
+        height: 40vh;
+    }
+}
     
-    form {
-        margin-top: 20px;
-        height: 100%;
+@media only screen and (min-device-width: 600px) and (max-device-height: 960px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+     /* Header */
+     .main-content {
+        font-size: 5vh;
+        width: 60%;
+    }
+
+    .header-nav nav {
         width: 50%;
+    }
+
+    .header-nav nav ul {
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .header-nav nav a {
+        font-size: 5vh;
+        line-height: 10vh;
+        text-align: center;
+    }
+    
+    .header-nav .close-btn {
+        padding: 6vh 0 0vh 4vh;
+        font-size: 4vh;
+    }
+
+    /* About */
+    .about-artists p  {
+        font-size: 4vh;
+        line-height: 4vh;
+        margin-top: 6vh;
+    }
+
+    .about-images img:first-child {
+        top: 40px;
+        left: 5vw;
+        height: 30vh;
+    }
+    
+    .about-images img:last-child {
+        top: 10vh;
+        left: 60vw;
+        height: 30vh;
+    }
+
+      /* Expansion */
+      .expansion-about img {
+        display: none;
+    }
+
+    .expansion-about--gray-box {
+        display: none;
+    }
+
+    .expansion_reason--graybox {
+        display: none;
+    }
+
+    .expansion-about-textcontent {
+        display: none;
+    }
+
+    .expansion-content--heading-wrapper {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .expansion-reasons {
+        width: 100%;
+        margin: auto;
+    }
+
+    .expansion-reasons__main-content {
+        width: 80%;
+        text-align: left;
+        margin: auto;
+        margin-top: 6vh;
+    }
+
+    .expansion-target-audience {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* Gallery */
+    .gallery-content--heading-wrapper h2 {
+        top: 10vh;
+        font-size: 8vh;
+        left: 1vh;
+    }
+
+     .gallery-content-image {
+        top: 10vh;
+        right: 10vh;
+     }
+
+     .gallery-content-image img {
+        height: 40vh;
+    }
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+     /* Header */
+     .main-content {
+        font-size: 5vh;
+        width: 60%;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+     /* Header */
+     .main-content {
+        font-size: 5vh;
+        width: 60%;
+    }
+
+    .header-nav nav {
+        width: 50%;
+    }
+
+    .header-nav nav ul {
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .header-nav nav a {
+        font-size: 5vh;
+        line-height: 10vh;
+        text-align: center;
+    }
+    
+    .header-nav .close-btn {
+        padding: 6vh 0 0vh 4vh;
+        font-size: 4vh;
+    }s
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Header */
+    header {
+        background-position: 20%;
+    }
+
+    .main-content {
+        width: 60%;
+        font-size: 6.3vh;
+    }
+
+    .header-nav nav {
+        width: 50%;
+    }
+
+    .header-nav nav ul {
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .header-nav nav a {
+        font-size: 5vh;
+        line-height: 10vh;
+        text-align: center;
+    }
+    
+    .header-nav .close-btn {
+        padding: 6vh 0 0vh 4vh;
+        font-size: 4vh;
+    }
+
+    /* About */
+    .about h2 {
+        font-size: 3vh;
+        padding: 1vh;
+    }
+
+    .about-artists p  {
+        font-size: 5vh;
+        line-height: 5vh;
+    }
+
+    .about-images {
+        display: none;
+    }
+
+    /* Expansion */
+    .expansion-about img {
+        display: none;
+    }
+
+    .expansion-about--gray-box {
+        display: none;
+    }
+
+    .expansion_reason--graybox {
+        display: none;
+    }
+
+    .expansion-about-textcontent {
+        display: none;
+    }
+
+    .expansion-content--heading-wrapper {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .expansion-reasons {
+        width: 100%;
+        margin: auto;
+    }
+
+    .expansion-reasons__main-content {
+        width: 80%;
+        text-align: left;
+        margin: auto;
+        margin-top: 6vh;
+    }
+
+    .expansion-target-audience {
+        width: 80%;
+        margin: auto;
+    }
+
+     /* Gallery */
+     .gallery-content--heading-wrapper h2 {
+        top: 10vh;
+        font-size: 8vh;
+        left: 1vh;
+    }
+
+     .gallery-content-image {
+        top: 10vh;
+        right: 10vh;
+     }
+
+     .gallery-content-image img {
+        height: 40vh;
+    }
+
+        /* Footer */
+        .contact {
+            height: 60vh;
+        }
+        
+        .contact-join-us {
+            height: 60vh;
+        }
+    
+        footer {
+            height: 40vh;
+        }
+    
+        .contact-share-us {
+            height: 60vh;
+        }
+        
+        .contact-share-us h4 {
+            font-size: 3.5vh;
+            line-height: 5vh;
+            top: 5vh;
+        }
+    
+        .contact-share-us img {
+            top: 15vh;
+            height: 25vh;
+        }
+    
+        .contact-join-us h4 {
+            margin: 1vh;
+            font-size: 1.4vh;
+        }
+    
+        .contact-join-us h3 {
+            margin: 2vh;
+            font-size: 2vh;
+            width: 60%;
+        }
+    
+        .contact-join-us input {
+            width: 80%;
+        }
+    
+        .contact-join-us button {
+            width: 80%;
+        }
+    
+        .footer-logo {
+            display: none;
+        }
+    
+        .footer-about {
+            width: 80%;
+            margin: auto;
+        }
+    
+        .footer-description p {
+            width: 80%;
+            margin: auto;
+            font-size: 1.7vh;
+            margin-top: 1vh;
+        }
+    
+        .footer-social {
+            display: flex;
+            width: 40%;
+            justify-content: center;
+            margin: auto;
+        }
+    
+        .footer-social img {
+            padding-left: 5vh;
+        }
+    
+        .footer-wrapper {
+            padding-top: 5vh;
+        }
+    
+        .footer-navbar {
+            padding-left: 2vh;
+            margin: auto;
+        }
+    
+        .footer-navbar h4 {
+            margin: 0;
+            font-size: 1.3vh;
+        }
+
+        .footer-description span {
+            display: block;
+            text-align: right;
+            padding-right: 2vh;
+        }
+    
+        ul li a {
+            font-size: 1.3vh;
+        }
+}
+
+/* Big Smartphones and Small Tablets(portrait and landscape) ----------- */
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+    /* Header */
+    header {
+        background-position: 20%;
+    }
+
+    .main-content {
+        width: 60%;
+        font-size: 7vh;
+    }
+
+    .header-nav nav {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
         text-align: center;
     }
 
-    .join-us-wrapper {
-        flex-direction: row;
+    .header-nav nav ul {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .header-nav nav a {
+        font-size: 5vh;
+        line-height: 10vh;
+        text-align: center;
+    }
+    
+    .header-nav .close-btn {
+        padding: 6vh 0 0vh 4vh;
+        font-size: 4vh;
     }
 
-    .contact-share-us {
+    /* About */
+    .about h2 {
+        font-size: 3vh;
+        padding: 1vh;
+    }
+
+    .about-artists p  {
+        font-size: 5vh;
+        line-height: 4vh;
+    }
+
+    .about-images {
         display: none;
     }
 
-    .footer-wrapper {
-        display: flex;
-        flex-direction: column;
+    /* Expansion */
+    .expansion-about img {
+        display: none;
+    }
+
+    .expansion-about--gray-box {
+        display: none;
+    }
+
+    .expansion_reason--graybox {
+        display: none;
+    }
+
+    .expansion-about-textcontent {
+        display: none;
+    }
+
+    .expansion-content--heading-wrapper {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .expansion-reasons {
         width: 100%;
-        justify-content: space-between;
+        margin: auto;
+    }
+
+    .expansion-reasons__main-content {
+        width: 80%;
+        text-align: left;
+        margin: auto;
+        margin-top: 6vh;
+    }
+
+    .expansion-target-audience {
+        width: 80%;
+        margin: auto;
+    }
+
+     /* Gallery */
+     .gallery-content--heading-wrapper h2 {
+        top: 10vh;
+        font-size: 8vh;
+        left: 1vh;
+    }
+
+     .gallery-content-image {
+        top: 10vh;
+        right: 10vh;
+     }
+
+     .gallery-content-image img {
+        height: 40vh;
+    }
+
+        /* Footer */
+        .contact {
+            height: 60vh;
+        }
+        
+        .contact-join-us {
+            height: 60vh;
+        }
+    
+        footer {
+            height: 40vh;
+        }
+    
+        .contact-share-us {
+            height: 60vh;
+        }
+        
+        .contact-share-us h4 {
+            font-size: 3.5vh;
+            line-height: 5vh;
+            top: 5vh;
+        }
+    
+        .contact-share-us img {
+            top: 15vh;
+            height: 25vh;
+        }
+    
+        .contact-join-us h4 {
+            margin: 1vh;
+            font-size: 1.4vh;
+        }
+    
+        .contact-join-us h3 {
+            margin: 2vh;
+            font-size: 2vh;
+            width: 60%;
+        }
+    
+        .contact-join-us input {
+            width: 80%;
+        }
+    
+        .contact-join-us button {
+            width: 80%;
+        }
+    
+        .footer-logo {
+            display: none;
+        }
+    
+        .footer-about {
+            width: 80%;
+            margin: auto;
+        }
+    
+        .footer-description p {
+            width: 80%;
+            margin: auto;
+            font-size: 1.7vh;
+            margin-top: 1vh;
+        }
+    
+        .footer-social {
+            display: flex;
+            width: 40%;
+            justify-content: center;
+            margin: auto;
+        }
+    
+        .footer-social img {
+            padding-left: 5vh;
+        }
+    
+        .footer-wrapper {
+            padding-top: 5vh;
+        }
+    
+        .footer-navbar {
+            padding-left: 2vh;
+            margin: auto;
+        }
+    
+        .footer-navbar h4 {
+            margin: 0;
+            font-size: 1.3vh;
+        }
+
+        .footer-description span {
+            display: block;
+            text-align: right;
+            padding-right: 2vh;
+        }
+    
+        ul li a {
+            font-size: 1.3vh;
+        }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Header */
+    header {
+        background-position: 90%;
+    }
+    
+    .main-content {
+        font-size: 5vh;
+        width: 60%;
+    }
+
+    .header-nav nav {
+        display: flex;
+        width: 100%;
+        justify-content: center;
         align-items: center;
-        padding-top: 0;
+        margin-right: 10vh;
+        text-align: center;
     }
 
-    .footer-navbar {
-        margin-bottom: 0;
-    }
-
-    .footer-navbar h4 {
+    .header-nav nav ul {
+        display: block;
+        text-align: center;
         padding: 0;
+        margin: auto;
+    }
+    
+    .header-nav nav a {
+        font-size: 5vh;
+        line-height: 10vh;
+        text-align: center;
+    }
+    
+    .header-nav .close-btn {
+        padding: 6vh 0 0vh 4vh;
+        font-size: 4vh;
     }
 
-    ul li {
-        display: inline-block;
-        padding-right: 70px;
+    /* About */
+    .about-content {
+        padding: 7vh 0 0 0;
     }
 
-    ul li:last-child {
-        padding-right: 0;
+    .about h2 {
+        font-size: 3vh;
+        padding: 1vh;
     }
 
-    ul li a {
-        font-size: 14px;
+    .about-artists p  {
+        font-size: 4vh;
+        line-height: 4vh;
+        margin-top: 6vh;
+    }
+
+    .about-images img:first-child {
+        top: 40px;
+        left: 5vw;
+        height: 30vh;
+    }
+    
+    .about-images img:last-child {
+        top: 10vh;
+        left: 60vw;
+        height: 30vh;
+    }
+
+    /* Expansion */
+    .expansion-about img {
+        display: none;
+    }
+
+    .expansion-about--gray-box {
+        display: none;
+    }
+
+    .expansion_reason--graybox {
+        display: none;
+    }
+
+    .expansion-about-textcontent {
+        display: none;
+    }
+
+    .expansion-content--heading-wrapper {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .expansion-reasons {
+        width: 100%;
+        margin: auto;
+    }
+
+    .expansion-reasons__main-content {
+        width: 80%;
+        text-align: left;
+        margin: auto;
+        margin-top: 6vh;
+    }
+
+    .expansion-target-audience {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* Gallery */
+    .gallery-content--heading-wrapper h2 {
+        top: 10vh;
+        font-size: 8vh;
+        left: 1vh;
+    }
+
+     .gallery-content-image {
+        top: 10vh;
+        right: 10vh;
+     }
+
+     .gallery-content-image img {
+        height: 40vh;
+    }
+
+    /* Footer */
+    .contact {
+        height: 60vh;
+    }
+    
+    .contact-join-us {
+        height: 60vh;
     }
 
     footer {
-        width: 100%;
-        background-color: #F7F2E7;
-        height: 70vh;
+        height: 40vh;
     }
 
-    .footer-description p {
-        width: 100%;
-        font-size: 14px;
-        margin-bottom: 0;
+    .contact-share-us {
+        height: 60vh;
+    }
+    
+    .contact-share-us h4 {
+        font-size: 5vh;
+        line-height: 6vh;
     }
 
-    .footer-description span:last-child {
-        display: block;
-        width: 100%;
-        font-size: 14px;
+    .contact-share-us img {
+        top: 10vh;
+        height: 35vh;
+    }
+
+    .contact-join-us h4 {
+        margin: 1vh;
+        font-size: 2vh;
+    }
+
+    .contact-join-us h3 {
+        margin: 2vh;
+        font-size: 2.3vh;
+    }
+
+    .contact-join-us input {
+        width: 80%;
+    }
+
+    .contact-join-us button {
+        width: 80%;
     }
 
     .footer-logo {
@@ -477,79 +931,143 @@
     }
 
     .footer-about {
-        width: 70%;
+        width: 50%;
+        margin: auto;
+    }
+
+    .footer-description p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .footer-social {
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .footer-social img {
+        padding-left: 5vh;
+    }
+
+    .footer-wrapper {
+        padding-top: 5vh;
+    }
+
+    .footer-navbar {
+        padding-left: 3vh;
+    }
+
+    .footer-navbar h4 {
+        margin: 0;
+        font-size: 1.3vh;
+    }
+
+    ul li a {
+        font-size: 1.3vh;
     }
 }
 
+/* Old Desktops and laptops ----------- */
+@media only screen and (min-width : 1025px) and (max-width: 1366px) {
 
-@media(min-height: 850px) {
-    /* Expansion */
-    .expansion-about img {
-        height: 400px;
-        top: 50px;
+    /* Header */
+    .header-nav nav {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
     }
 
-    .expansion-about--gray-box {
-        width: 350px;
-        height: 200px;
-        top: 340px;
-        left: 69px;
+    .header-nav nav ul {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .header-nav nav a {
+        font-size: 5vh;
+        line-height: 10vh;
+        text-align: center;
+    }
+    
+    .header-nav .close-btn {
+        padding: 6vh 0 0vh 4vh;
+        font-size: 4vh;
+    }
+
+    /* About */
+    .about-images img:first-child {
+        top: 40px;
+        left: 5vw;
+        height: 50vh;
+    }
+    
+    .about-images img:last-child {
+        top: 10vh;
+        left: 60vw;
+        height: 50vh;
+    }
+
+    /* Expansion */
+    .expansion-about img {
+        height: 50vh;
+        left: 4vw;
     }
 
     .expansion-content--heading-wrapper {
+        width: 90%;
+    }
+
+    /* Gallery */
+    .gallery-content-image img {
+       height: 50vh;
+    }
+
+    /* Footer */
+    .contact-share-us h4 {
+        font-size: 7vh;
+        line-height: 11vh;
+        color: snow;
+    }
+
+    .contact-share-us img {
+        top: 10vh;
+        height: 50vh;
+    }
+
+    .footer-logo {
+        width: 10%;
+    }
+
+    .footer-about {
         width: 50%;
     }
 
-    .expansion-reasons {
-        width: 30%;
-        margin-top: 20px;
-        margin-right: 350px;    
+    .footer-description p {
+        width: 80%;
+        margin: auto;
     }
 
-    .expansion-about-textcontent {
-        top: 250px;
-        left: 70px;
+    .footer-wrapper {
+        padding-top: 5vh;
+    }
+
+    .footer-navbar h4 {
+        margin: 0;
+    }
+}
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    
+      /* About */
+      .about-artists p  {
+        font-size: 5vh;
+        line-height: 4vh;
     }
 }
 
-@media only screen 
-  and (max-device-width: 1280px) 
-  and (device-height: 720px)
-{
-    /* Expansion */
-    .expansion-about img {
-        height: 400px;
-        top: 50px;
-    }
 
-    .expansion-about--gray-box {
-        width: 350px;
-        height: 200px;
-        top: 340px;
-        left: 69px;
-    }
-
-    .expansion-content--heading-wrapper {
-        width: 50%;
-    }
-
-    .expansion-reasons {
-        width: 30%;
-        margin-top: 20px;
-        margin-right: 240px;    
-    }
-
-    .expansion-about-textcontent {
-        top: 350px;
-        left: 70px;
-    }
-}  
-
-@media(max-height: 568px) {
-    .expansion-about img {
-        display: none;
-    }
-    .expansion-about-textcontent {
-        display: none;
-    }
-}

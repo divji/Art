@@ -11,21 +11,35 @@
 <body>
 
     <div class="scroller">
-        <header>
-            <div class="flex-wrapper">
-             <div class="logo">
-                 <img src="img/logo.svg" alt="Logo">
-             </div>
-             <nav class="navbar">
-                 <p>Menu</p>
-             </nav>
+        <header id="header">
+            <div class="header-main-content">
+                <div class="flex-wrapper">
+                    <div class="logo">
+                        <img src="img/logo.svg" alt="Logo">
+                    </div>
+                    <nav class="navbar">
+                        <p>Menu</p>
+                    </nav>
+                </div>
+                <div class="main-content">
+                    <p>There is nothing more truly artistic than to love people.</p>
+                </div>
             </div>
-             <div class="main-content">
-                 <p>There is nothing more truly artistic than to love people.</p>
+             <div class="header-nav">
+                 <p class="close-btn">Close</p>
+                 <nav>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#expansion">Expansion</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
+                 </nav>
              </div>
          </header>
 
-         <section class="about">
+         <section class="about" id="about">
             <div class="about-content">
                <h2>We’ll show you 5 famous artists</h2>
                <div class="about-images">
@@ -42,7 +56,7 @@
             </div>
          </section>
 
-         <section class="expansion">
+         <section class="expansion" id="expansion">
             <div class="expansion-content">
                 <div class="expansion-content--heading-wrapper">
                     <h2>We are you art expansion</h2>
@@ -93,7 +107,7 @@
             </div>
          </section>
          
-         <section class="gallery">
+         <section class="gallery" id="gallery">
             <div class="gallery-content">
                 <div class="gallery-content--heading-wrapper">
                     <h2>Our gallery,Our gallery, Our gallery</h2>
@@ -104,7 +118,7 @@
             </div>
          </section>
 
-         <section class="footer">
+         <section class="footer" id="footer">
              <section class="contact">
                 <div class="contact-join-us">
                     <div class="join-us-wrapper">
@@ -133,10 +147,11 @@
                          <h4>Welcome to our world</h4>                                                                   
                         <nav>
                             <ul>
-                                <li><a href="">Home</a></li>
-                                <li><a href="">About us</a></li>
-                                <li><a href="">Gallery</a></li>
-                                <li><a href="">Contact</a></li>
+                                <li><a href="#header">Home</a></li>
+                                <li><a href="#about">About us</a></li>
+                                <li><a href="#expansion">Expansion</a></li>
+                                <li><a href="#gallery">Gallery</a></li>
+                                <li><a href="#footer">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -166,5 +181,6 @@
              </footer>
          </section>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
